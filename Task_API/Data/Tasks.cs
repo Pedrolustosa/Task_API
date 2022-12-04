@@ -3,6 +3,6 @@
 namespace Task_API.Data
 {
     [Table("Tasks")]
-    public record Task(int Id, string Activity, string Status);
+    public record Tasks(int Id, string Activities, string Status);
 
 }
